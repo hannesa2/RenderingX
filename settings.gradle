@@ -10,7 +10,7 @@ include ':RenderingXExample'
 
 // Building with git submodules begin
 include ':Shared'
-project(':Shared').projectDir=new File('LiveVideo10ms\\Shared')
+project(':Shared').projectDir=new File('LiveVideo10ms/Shared')
 include ':VideoCore'
-project(':VideoCore').projectDir=new File('LiveVideo10ms\\VideoCore')
+project(':VideoCore').projectDir=new File('LiveVideo10ms/VideoCore')
 // Building with git submodules end
